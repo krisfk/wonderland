@@ -1370,4 +1370,11 @@ button:hover {
     .uc-img {
         width: 100%;
     }
+    .product-foto-thumbnail-ul li {
+        float: left;
+        position: relative;
+        width: 22.7%;
+        display: inline-block;
+        margin: 0 10px 10px 0;
+    }
 }
