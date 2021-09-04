@@ -305,7 +305,11 @@ function turn_list(copy_list) {
         for (i = 0; i < $('.product-cate-side-menu-div select option').length; i++) {
             console.log($('.product-cate-side-menu-div select option').eq(i).html() + ' ' + $('.product-list-div h1')
                 .html());
-            if ($('.product-cate-side-menu-div select option').eq(i).html() == $('.product-list-div h1').html()) {
+            if (
+
+                $('.product-cate-side-menu-div select option').eq(i).html() == $('.product-list-div h1').html() ||
+                $('.product-cate-side-menu-div select option').eq(i).html() == '- ' + $('.product-list-div h1').html()
+            ) {
                 $('.product-cate-side-menu-div select option').eq(i).attr('selected', 'selected');
             }
         }
