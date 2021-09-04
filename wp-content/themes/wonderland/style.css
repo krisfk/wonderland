@@ -1296,7 +1296,8 @@ button:hover {
         width: -moz-fit-content;
         float: none;
         display: inline-block;
-        padding: 0 0 0 2rem;
+        /* padding: 0 0 0 2rem; */
+        padding: 0;
     }
     .woocommerce .woocommerce-breadcrumb {
         margin: 0 auto 1em auto;
