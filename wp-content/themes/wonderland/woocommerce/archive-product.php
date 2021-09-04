@@ -96,9 +96,7 @@ $cate = get_queried_object();
 $cateID = $cate->term_id;
 
 ?>
-        <h1 class="text-start mb-4">
-
-            <?php 
+        <h1 class="text-start mb-4"><?php 
             
             if($cate->name =='product' && !$_GET['s'])
             {
@@ -305,6 +303,8 @@ function turn_list(copy_list) {
         $('.product-cate-side-menu-div select').addClass('form-select');
 
         for (i = 0; i < $('.product-cate-side-menu-div select option').length; i++) {
+            console.log($('.product-cate-side-menu-div select option').eq(i).html() + ' ' + $('.product-list-div h1')
+                .html());
             if ($('.product-cate-side-menu-div select option').eq(i).html() == $('.product-list-div h1').html()) {
                 $('.product-cate-side-menu-div select option').eq(i).attr('selected', 'selected');
             }
