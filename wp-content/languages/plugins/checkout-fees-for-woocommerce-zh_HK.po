@@ -1,0 +1,1756 @@
+# Translation of Plugins - Payment Gateway Based Fees and Discounts for WooCommerce - Development (trunk) in Chinese (Hong Kong)
+# This file is distributed under the same license as the Plugins - Payment Gateway Based Fees and Discounts for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-14 17:10:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_HK\n"
+"Project-Id-Version: Plugins - Payment Gateway Based Fees and Discounts for WooCommerce - Development (trunk)\n"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Plugin URI of the plugin
+msgid "https://www.tychesoftwares.com/store/premium-plugins/payment-gateway-based-fees-and-discounts-for-woocommerce-plugin/"
+msgstr "https://www.tychesoftwares.com/store/premium-plugins/payment-gateway-based-fees-and-discounts-for-woocommerce-plugin/"
+
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com/"
+msgstr "https://www.tychesoftwares.com/"
+
+#. Description of the plugin
+msgid "Set payment gateways fees and discounts in WooCommerce."
+msgstr "在 WooCommerce 中設定支付閘道費用和折扣。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:264
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:425
+msgid "Fee (or discount) will only be added if NO product of selected category(-ies) is in the cart."
+msgstr "僅當購物車中沒有所選類別的產品時，才會添加費用(或折扣)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:249
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:401
+msgid "Fee (or discount) will only be added if product of selected category(-ies) is in the cart."
+msgstr "僅當所選類別的產品在購物車中時，才會添加費用(或折扣)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:235
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:387
+msgid "Fee (or discount) will only be added if customer's billing state is NOT in the list. Comma separated list of states codes."
+msgstr "僅當客戶的計費狀態不在清單中時，才會添加費用(或折扣)。逗號分隔狀態代碼清單。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:230
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:382
+msgid "States to exclude"
+msgstr "要排除的鎮"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:222
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:374
+msgid "Fee (or discount) will only be added if customer's billing state is in the list. Comma separated list of states codes."
+msgstr "僅當客戶的計費狀態在清單中時，才會添加費用(或折扣)。逗號分隔狀態代碼清單。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:217
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:369
+msgid "States to include"
+msgstr "列入的鎮"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:216
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:368
+msgid "Customer states"
+msgstr "客戶狀態"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:206
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:358
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:548
+msgid "Fee (or discount) will only be added if customer's billing country is NOT in the list."
+msgstr "僅當客戶的計費國家/地區不在清單中時，才會添加費用(或折扣)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:192
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:207
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:223
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:236
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:250
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:265
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:344
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:359
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:375
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:388
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:402
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:426
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:533
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:549
+msgid "Ignored if empty."
+msgstr "如果為空，則忽略。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:191
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:343
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:532
+msgid "Fee (or discount) will only be added if customer's billing country is in the list."
+msgstr "僅當客戶的計費國家/地區在清單中時，才會添加費用(或折扣)。"
+
+#. translators: %s: Upgrade to Pro URL
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:103
+msgid "You will need <a target=\"_blank\" href=\"%s\">Pro version</a> of the plugin to set this option."
+msgstr "您將需要<a target=\"_blank\" href=\"%s\">外掛的 Pro 版本</a>來設定此選項。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:159
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:167
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:311
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:319
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:454
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:465
+msgid "Ignored if set to zero."
+msgstr "如果設定為零，則忽略。"
+
+#. translators: %s: Upgrade to pro url
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:341
+msgid "You will need <a target=\"_blank\" href=\"%s\">Pro version</a> of the plugin to set fees for this gateway on per product basis."
+msgstr "您將需要<a target=\"_blank\" href=\"%s\">外掛的 Pro 版本</a>來根據每個產品設定此閘道的費用。"
+
+#: includes/settings/class-alg-wc-settings-checkout-fees.php:58
+msgid "Reset"
+msgstr "重置"
+
+#: includes/settings/class-alg-wc-settings-checkout-fees.php:57
+msgid "Reset section settings"
+msgstr "重置分區設定"
+
+#: includes/settings/class-alg-wc-settings-checkout-fees.php:52
+msgid "Reset Settings"
+msgstr "重新設定"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:161
+msgid "As price range"
+msgstr "作為價格範圍"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:160
+msgid "For each variation"
+msgstr "對於每個變體"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:155
+msgid "Variable products info"
+msgstr "可變產品資訊"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:130
+msgid "Template HTML"
+msgstr "範本 HTML"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:124
+msgid "This will add gateway fee/discount lowest price info on single product frontend page."
+msgstr "這將在單個產品前端頁面上添加閘道費用/折扣最低價格資訊。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:122
+msgid "Lowest price info on single product page"
+msgstr "單一產品頁面上的最低價格資訊"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:116
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:149
+msgid "Position priority (i.e. order)"
+msgstr "位置優先順序(即順序)"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:112
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:145
+msgid "After product summary"
+msgstr "產品摘要後"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:111
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:144
+msgid "Before product summary"
+msgstr "產品摘要之前"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:110
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:143
+msgid "Inside product summary"
+msgstr "內部產品摘要"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:105
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:138
+msgid "Position"
+msgstr "位置"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:97
+msgid "End HTML"
+msgstr "結束 HTML"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:89
+msgid "Row template HTML"
+msgstr "行範本 HTML"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:81
+msgid "Start HTML"
+msgstr "啟動 HTML"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:75
+msgid "This will add gateway fee/discount info on single product frontend page."
+msgstr "這將在單個產品前端頁面上添加閘道費用/折扣資訊。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:74
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:123
+msgid "Show"
+msgstr "顯示"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:73
+msgid "Info on single product page"
+msgstr "單一產品頁面上的資訊"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:47
+msgid "Values that will be replaced in templates below are: %s."
+msgstr "將在以下範本中替換的值是：%s。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:43
+msgid "Info on Single Product"
+msgstr "單一產品資訊"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-info.php:30
+msgid "Info"
+msgstr "網站狀態資訊"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:72
+msgid "Leave blank to include in all gateways."
+msgstr "留空以包含在所有閘道中。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:71
+msgid "Exclude from gateways"
+msgstr "從閘道排除"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:64
+msgid "Check this, if you want fee to be added only if there are already any other fees added for the gateway."
+msgstr "如果希望僅在閘道已添加任何其他費用時才添加費用，請勾選此項。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:63
+msgid "Add as extra fee only"
+msgstr "僅作為額外費用添加"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:57
+msgid "This fee will be added to all gateways. Fee is fixed and not taxable."
+msgstr "此費用將添加到所有閘道。費用是固定的，無需納稅。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:55
+msgid "Global extra fee"
+msgstr "全球額外費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:31
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:50
+msgid "Global Extra Fee"
+msgstr "全球額外費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:156
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:154
+msgid "Are you sure?"
+msgstr "確定要中斷網站與 Jetpack 的連線？"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:148
+msgid "Delete all plugin's data"
+msgstr "刪除外掛的所有資料"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:143
+msgid "Advanced Options"
+msgstr "進階設定"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:133
+msgid "Hide"
+msgstr "隱藏"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:132
+msgid "Hide gateways fees and discounts on cart page"
+msgstr "在購物車頁面上隱藏閘道費用和折扣"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:127
+msgid "Cart Options"
+msgstr "購物車選項"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:115
+msgid "Max total fee"
+msgstr "最大總費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:108
+msgid "Negative number."
+msgstr "負數。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:107
+msgid "Max total discount"
+msgstr "最大總折扣"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:102
+msgid "Max Range Options"
+msgstr "最大範圍選項"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:91
+msgid "This will merge all fees for a gateway into single line (i.e. will display it as a single fee on front end)."
+msgstr "這將閘道的所有費用合併到單行中(即，它將在前端顯示為單個費用)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:90
+msgid "Merge all fees"
+msgstr "合併所有費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:75
+msgid "This can help when you adding fees/discounts for variable products."
+msgstr "當您為可變產品添加費用/折扣時，這會有所説明。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:73
+msgid "Add product title to fee/discount title"
+msgstr "將產品標題添加到費用/折扣標題"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:67
+msgid "This will add meta boxes with fees settings to each product's edit page."
+msgstr "這將向每個產品的編輯頁面添加包含費用設定的元框。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:65
+msgid "Payment gateways fees and discounts on per product basis"
+msgstr "按產品支付閘道費用和折扣"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:60
+msgid "Fees/Discounts per Product"
+msgstr "每產品的費用/折扣"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:50
+msgid "Enable extra fees or discounts for WooCommerce payment gateways."
+msgstr "為 WooCommerce 支付閘道啟用額外的費用或折扣。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:49
+msgid "Enable plugin"
+msgstr "啟用插件"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:30
+msgid "General"
+msgstr "一般"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:566
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:576
+msgid "Only for selected products"
+msgstr "僅適用於所選產品"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:559
+msgid "Product categories - Calculation type"
+msgstr "產品類別 - 計算類型"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:534
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:550
+msgid "This is applied to both main and additional fees. Alternatively you can also set customer countries for each fee individually."
+msgstr "這適用於主費用和額外費用。或者，您也可以為每個費用單獨設定客戶國家/地區。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:520
+msgid "Add taxes to total cart sum, when calculating fees."
+msgstr "在計算費用時，將稅金添加到購物車總和。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:74
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:519
+msgid "Add"
+msgstr "新增"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:512
+msgid "Exclude shipping from total cart sum, when calculating fees."
+msgstr "計算費用時，從購物車總和中排除運費。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:511
+msgid "Exclude"
+msgstr "排除"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:503
+msgid "Only if \"Taxes\" option above is enabled."
+msgstr "僅當啟用了上述\"稅金\"選項時。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:496
+msgid "Is taxable?"
+msgstr "應納稅嗎？"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:484
+msgid "If rounding is enabled, set precision (i.e. number of decimals) here."
+msgstr "如果啟用了捨入，則在此處設定精度(即小數位數)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:477
+msgid "Round the fee (or discount) value before adding to the cart."
+msgstr "在添加到購物車之前，將費用(或折扣)值捨入。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:465
+msgid "Maximum cart amount for adding the fee (or discount)."
+msgstr "添加費用(或折扣)的最大購物車金額。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:454
+msgid "Minimum cart amount for adding the fee (or discount)."
+msgstr "添加費用(或折扣)的最低購物車金額。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:285
+msgid "To display each (i.e. main and additional) fees on different lines in cart (and checkout), you must set different titles. If titles are equal they will be merged into single line."
+msgstr "要在購物車(和結帳)的不同行上顯示每個(即主費用和附加)費用，您必須設定不同的標題。如果標題相等，它們將合併到單行中。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:278
+msgid "Additional Fee (Optional)"
+msgstr "額外費用(可選)"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:259
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:420
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:570
+msgid "Categories to exclude"
+msgstr "要排除的類別"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:244
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:396
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:560
+msgid "Categories to include"
+msgstr "要包括的類別"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:243
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:395
+msgid "Product categories"
+msgstr "商品分類"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:201
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:353
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:543
+msgid "Countries to exclude"
+msgstr "要排除的國家/地區"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:186
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:338
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:527
+msgid "Countries to include"
+msgstr "包括的國家"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:185
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:337
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:526
+msgid "Customer countries"
+msgstr "客戶國家"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:167
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:319
+msgid "Maximum fee (or discount)."
+msgstr "最高費用(或折扣)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:108
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:116
+msgid "Set 0 to disable."
+msgstr "將 0 設定為禁用。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:159
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:311
+msgid "Minimum fee (or discount)."
+msgstr "最低費用(或折扣)。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:151
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:303
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:88
+msgid "Fee (or discount) value. For discount enter a negative number."
+msgstr "費用(或折扣)值。對於折扣，輸入負數。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:140
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:292
+msgid "Fee (or discount) type. Percent or fixed value."
+msgstr "費用(或折扣)類型。百分比或固定值。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:133
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:284
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:81
+msgid "Fee (or discount) title to show to customer."
+msgstr "向客戶顯示的費用(或折扣)標題。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:132
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:283
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:80
+msgid "Fee title"
+msgstr "費用標題"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:127
+msgid "Fee"
+msgstr "費用"
+
+#. translators: %s: title
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:117
+msgid "Add fee/discount to \"%s\" gateway."
+msgstr "向\"%s\"閘道添加費用/折扣。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:66
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:92
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:115
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:476
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:495
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:56
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:65
+msgid "Enable"
+msgstr "啟用"
+
+#. translators: %s: title
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:114
+msgid "\"%s\" fees and discounts"
+msgstr "\"%s\"費用和折扣"
+
+#. Plugin Name of the plugin
+msgid "Payment Gateway Based Fees and Discounts for WooCommerce"
+msgstr "基於支付閘道的費用和折扣為WooCommerce"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:364
+msgid "In free version only <strong>Direct Bank Transfer (BACS)</strong> fees are available on per product basis."
+msgstr "在免費版本中，只有<strong>直接銀行轉帳 (BACS)</strong>費用按產品提供。"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:282
+msgid "Multiply by product quantity"
+msgstr "乘以產品數量"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:281
+msgid "Once"
+msgstr "單次"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:279
+msgid "Fee calculation (for Fixed fees)"
+msgstr "費用計算(固定費用)"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:272
+msgid "Only for current product"
+msgstr "僅適用於當前產品"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:271
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:565
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:575
+msgid "For all cart"
+msgstr "對於所有購物車"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:269
+msgid "Fee calculation (for Percent fees)"
+msgstr "費用計算(百分比費用)"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:263
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:518
+msgid "Add taxes"
+msgstr "添加稅金"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:253
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:510
+msgid "Exclude shipping"
+msgstr "不包括運費"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:243
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:507
+msgid "Standard rate"
+msgstr "标准税率"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:242
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:502
+msgid "Tax class"
+msgstr "稅率類別"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:236
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:494
+msgid "Taxes"
+msgstr "稅"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:226
+msgid "Number of decimals"
+msgstr "小數位數"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:224
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:483
+msgid "Rounding precision"
+msgstr "捨入精度"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:218
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:475
+msgid "Rounding"
+msgstr "四捨五入"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:207
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:464
+msgid "Maximum cart amount"
+msgstr "最大購物車金額"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:200
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:453
+msgid "Minimum cart amount"
+msgstr "最低購物車金額"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:194
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:85
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:448
+msgid "General Options"
+msgstr "一般選項"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:132
+msgid "Additional Fee/Discount (Optional)"
+msgstr "額外費用/折扣(可選)"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:127
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:189
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:181
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:333
+msgid "Apply fees only if any coupons were applied"
+msgstr "僅在應用任何優惠券時才收取費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:126
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:188
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:180
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:332
+msgid "Apply fees only if no coupons were applied"
+msgstr "僅在未應用優惠券時才收取費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:123
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:185
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:174
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:326
+msgid "Coupons rule"
+msgstr "優惠券規則"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:116
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:178
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:166
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:318
+msgid "Maximum fee value"
+msgstr "最高費用值"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:109
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:171
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:158
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:310
+msgid "Minimum fee value"
+msgstr "最低費用價值"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:102
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:164
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:150
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:302
+#: includes/settings/class-alg-wc-checkout-fees-settings-global-extra-fee.php:87
+msgid "Fee value"
+msgstr "費用價值"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:95
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:157
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:146
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:298
+msgid "Percent"
+msgstr "百分比"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:94
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:156
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:145
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:297
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:92
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:154
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:139
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:291
+msgid "Fee type"
+msgstr "费用类型"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:85
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:147
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:251
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:261
+msgid "Yes"
+msgstr "是"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:84
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:146
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:250
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:260
+msgid "No"
+msgstr "否"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:82
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:144
+msgid "Override global fee"
+msgstr "覆蓋全域費用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:76
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:138
+msgid "title"
+msgstr "標題"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:70
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:76
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:138
+msgid "Fee/Discount"
+msgstr "費用/折扣"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:65
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:216
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:234
+msgid "Enabled"
+msgstr "啟用"
+
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:64
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:125
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:187
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:215
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:233
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:179
+#: includes/settings/class-alg-wc-checkout-fees-settings-gateways.php:331
+msgid "Disabled"
+msgstr "已停用"
+
+#: includes/settings/class-alg-wc-settings-checkout-fees.php:31
+#: includes/settings/class-alg-wc-checkout-fees-settings-per-product.php:31
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:43
+#: includes/settings/class-alg-wc-checkout-fees-settings-general.php:48
+msgid "Payment Gateway Based Fees and Discounts"
+msgstr "基於支付閘道的費用和折扣"
+
+#: includes/functions/country-functions.php:324
+msgid "Virgin Islands, U.S."
+msgstr "美屬維爾京群島"
+
+#: includes/functions/country-functions.php:323
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#: includes/functions/country-functions.php:322
+msgid "United States Minor Outlying Islands"
+msgstr "美國小島嶼離島"
+
+#: includes/functions/country-functions.php:321
+msgid "Northern Mariana Islands"
+msgstr "北馬里亞納群島"
+
+#: includes/functions/country-functions.php:320
+msgid "Guam"
+msgstr "關島"
+
+#: includes/functions/country-functions.php:319
+msgid "American Samoa"
+msgstr "美屬薩摩亞"
+
+#: includes/functions/country-functions.php:318
+msgid "African Regional Industrial Property Organization"
+msgstr "非洲區域工業產權組織"
+
+#: includes/functions/country-functions.php:317
+msgid "France, Metropolitan"
+msgstr "法國，大都會"
+
+#: includes/functions/country-functions.php:315
+msgid "Zimbabwe"
+msgstr "津巴布韋"
+
+#: includes/functions/country-functions.php:314
+msgid "Zambia"
+msgstr "贊比亞"
+
+#: includes/functions/country-functions.php:313
+msgid "Yemen"
+msgstr "葉門"
+
+#: includes/functions/country-functions.php:312
+msgid "Western Samoa"
+msgstr "西薩摩亞"
+
+#: includes/functions/country-functions.php:311
+msgid "Western Sahara"
+msgstr "西撒哈拉"
+
+#: includes/functions/country-functions.php:310
+msgid "Wallis and Futuna"
+msgstr "瓦利斯和富圖納"
+
+#: includes/functions/country-functions.php:309
+msgid "Vietnam"
+msgstr "越南"
+
+#: includes/functions/country-functions.php:308
+msgid "Venezuela"
+msgstr "委內瑞拉"
+
+#: includes/functions/country-functions.php:307
+msgid "Vatican"
+msgstr "梵帝岡"
+
+#: includes/functions/country-functions.php:306
+msgid "Vanuatu"
+msgstr "瓦努阿圖"
+
+#: includes/functions/country-functions.php:305
+msgid "Uzbekistan"
+msgstr "烏茲別克斯坦"
+
+#: includes/functions/country-functions.php:304
+msgid "Uruguay"
+msgstr "烏拉圭"
+
+#: includes/functions/country-functions.php:303
+msgid "United States (US)"
+msgstr "美國"
+
+#: includes/functions/country-functions.php:302
+msgid "United Kingdom (UK)"
+msgstr "英國 (UK)"
+
+#: includes/functions/country-functions.php:301
+msgid "United Arab Emirates"
+msgstr "阿拉伯聯合大公國"
+
+#: includes/functions/country-functions.php:300
+msgid "Ukraine"
+msgstr "烏克蘭"
+
+#: includes/functions/country-functions.php:299
+msgid "Uganda"
+msgstr "烏干達"
+
+#: includes/functions/country-functions.php:298
+msgid "Tuvalu"
+msgstr "圖瓦盧"
+
+#: includes/functions/country-functions.php:297
+msgid "Turks and Caicos Islands"
+msgstr "特克斯和凱科斯群島"
+
+#: includes/functions/country-functions.php:296
+msgid "Turkmenistan"
+msgstr "土庫曼斯坦"
+
+#: includes/functions/country-functions.php:295
+msgid "Turkey"
+msgstr "土耳其"
+
+#: includes/functions/country-functions.php:294
+msgid "Tunisia"
+msgstr "突尼西亞"
+
+#: includes/functions/country-functions.php:293
+msgid "Trinidad and Tobago"
+msgstr "特立尼達和多巴哥"
+
+#: includes/functions/country-functions.php:292
+msgid "Tonga"
+msgstr "湯加"
+
+#: includes/functions/country-functions.php:291
+msgid "Tokelau"
+msgstr "托克勞"
+
+#: includes/functions/country-functions.php:290
+msgid "Togo"
+msgstr "多哥"
+
+#: includes/functions/country-functions.php:289
+msgid "Timor-Leste"
+msgstr "東帝汶"
+
+#: includes/functions/country-functions.php:288
+msgid "Thailand"
+msgstr "泰國"
+
+#: includes/functions/country-functions.php:287
+msgid "Tanzania"
+msgstr "坦桑尼亞"
+
+#: includes/functions/country-functions.php:286
+msgid "Tajikistan"
+msgstr "塔吉克斯坦"
+
+#: includes/functions/country-functions.php:285
+msgid "Taiwan"
+msgstr "台灣"
+
+#: includes/functions/country-functions.php:284
+msgid "Syria"
+msgstr "敘利亞"
+
+#: includes/functions/country-functions.php:283
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: includes/functions/country-functions.php:282
+msgid "Sweden"
+msgstr "瑞典"
+
+#: includes/functions/country-functions.php:281
+msgid "Swaziland"
+msgstr "史瓦濟蘭"
+
+#: includes/functions/country-functions.php:280
+msgid "Svalbard and Jan Mayen"
+msgstr "斯瓦巴和揚馬延"
+
+#: includes/functions/country-functions.php:279
+msgid "Suriname"
+msgstr "蘇里南"
+
+#: includes/functions/country-functions.php:278
+msgid "Sudan"
+msgstr "蘇丹"
+
+#: includes/functions/country-functions.php:277
+msgid "Sri Lanka"
+msgstr "斯里蘭卡"
+
+#: includes/functions/country-functions.php:276
+msgid "Spain"
+msgstr "西班牙"
+
+#: includes/functions/country-functions.php:275
+msgid "South Sudan"
+msgstr "南蘇丹"
+
+#: includes/functions/country-functions.php:274
+msgid "South Korea"
+msgstr "南韓"
+
+#: includes/functions/country-functions.php:273
+msgid "South Georgia/Sandwich Islands"
+msgstr "南喬治亞島/南桑威奇群島"
+
+#: includes/functions/country-functions.php:272
+msgid "South Africa"
+msgstr "南非"
+
+#: includes/functions/country-functions.php:271
+msgid "Somalia"
+msgstr "索馬里"
+
+#: includes/functions/country-functions.php:270
+msgid "Solomon Islands"
+msgstr "索羅門群島"
+
+#: includes/functions/country-functions.php:269
+msgid "Slovenia"
+msgstr "斯洛文尼亞"
+
+#: includes/functions/country-functions.php:268
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: includes/functions/country-functions.php:267
+msgid "Singapore"
+msgstr "新加坡"
+
+#: includes/functions/country-functions.php:266
+msgid "Sierra Leone"
+msgstr "塞拉利昂"
+
+#: includes/functions/country-functions.php:265
+msgid "Seychelles"
+msgstr "塞舌爾"
+
+#: includes/functions/country-functions.php:264
+msgid "Serbia"
+msgstr "塞爾維亞"
+
+#: includes/functions/country-functions.php:263
+msgid "Senegal"
+msgstr "塞內加爾"
+
+#: includes/functions/country-functions.php:262
+msgid "Saudi Arabia"
+msgstr "沙烏地阿拉伯"
+
+#: includes/functions/country-functions.php:261
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "聖多美及普林西比"
+
+#: includes/functions/country-functions.php:260
+msgid "San Marino"
+msgstr "聖馬力諾"
+
+#: includes/functions/country-functions.php:259
+msgid "Saint Vincent and the Grenadines"
+msgstr "聖文森特和格林納丁斯"
+
+#: includes/functions/country-functions.php:258
+msgid "Saint Pierre and Miquelon"
+msgstr "聖皮耶與密克隆群島"
+
+#: includes/functions/country-functions.php:257
+msgid "Saint Martin (Dutch part)"
+msgstr "聖馬丁島 (荷屬)"
+
+#: includes/functions/country-functions.php:256
+msgid "Saint Martin (French part)"
+msgstr "聖馬丁島(法屬)"
+
+#: includes/functions/country-functions.php:255
+msgid "Saint Lucia"
+msgstr "聖盧西亞"
+
+#: includes/functions/country-functions.php:254
+msgid "Saint Kitts and Nevis"
+msgstr "聖基茨和尼維斯"
+
+#: includes/functions/country-functions.php:253
+msgid "Saint Helena"
+msgstr "聖赫勒拿島"
+
+#: includes/functions/country-functions.php:252
+msgid "Saint Barth&eacute;lemy"
+msgstr "聖巴泰勒米"
+
+#: includes/functions/country-functions.php:251
+msgid "Rwanda"
+msgstr "盧旺達"
+
+#: includes/functions/country-functions.php:250
+msgid "Russia"
+msgstr "俄羅斯"
+
+#: includes/functions/country-functions.php:249
+msgid "Romania"
+msgstr "羅馬尼亞"
+
+#: includes/functions/country-functions.php:248
+msgid "Reunion"
+msgstr "留尼旺島"
+
+#: includes/functions/country-functions.php:247
+msgid "Qatar"
+msgstr "卡塔爾"
+
+#: includes/functions/country-functions.php:246
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: includes/functions/country-functions.php:245
+msgid "Poland"
+msgstr "波蘭"
+
+#: includes/functions/country-functions.php:244
+msgid "Pitcairn"
+msgstr "皮特凱恩"
+
+#: includes/functions/country-functions.php:243
+msgid "Philippines"
+msgstr "菲律賓"
+
+#: includes/functions/country-functions.php:242
+msgid "Peru"
+msgstr "秘魯"
+
+#: includes/functions/country-functions.php:241
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+#: includes/functions/country-functions.php:240
+msgid "Papua New Guinea"
+msgstr "巴布亞新幾內亞"
+
+#: includes/functions/country-functions.php:239
+msgid "Panama"
+msgstr "巴拿馬"
+
+#: includes/functions/country-functions.php:238
+msgid "Palestinian Territory"
+msgstr "巴勒斯坦領土"
+
+#: includes/functions/country-functions.php:237
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: includes/functions/country-functions.php:236
+msgid "Oman"
+msgstr "阿曼"
+
+#: includes/functions/country-functions.php:235
+msgid "Norway"
+msgstr "挪威"
+
+#: includes/functions/country-functions.php:234
+msgid "North Korea"
+msgstr "北韓"
+
+#: includes/functions/country-functions.php:233
+msgid "Norfolk Island"
+msgstr "諾福克島"
+
+#: includes/functions/country-functions.php:232
+msgid "Niue"
+msgstr "紐埃"
+
+#: includes/functions/country-functions.php:231
+msgid "Nigeria"
+msgstr "尼日利亞"
+
+#: includes/functions/country-functions.php:230
+msgid "Niger"
+msgstr "尼日爾"
+
+#: includes/functions/country-functions.php:229
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+#: includes/functions/country-functions.php:228
+msgid "New Zealand"
+msgstr "紐西蘭"
+
+#: includes/functions/country-functions.php:227
+msgid "New Caledonia"
+msgstr "新喀裡多尼亞"
+
+#: includes/functions/country-functions.php:226
+msgid "Netherlands Antilles"
+msgstr "荷屬安的列斯群島"
+
+#: includes/functions/country-functions.php:225
+msgid "Netherlands"
+msgstr "荷蘭"
+
+#: includes/functions/country-functions.php:224
+msgid "Nepal"
+msgstr "尼泊爾"
+
+#: includes/functions/country-functions.php:223
+msgid "Nauru"
+msgstr "瑙魯"
+
+#: includes/functions/country-functions.php:222
+msgid "Namibia"
+msgstr "納米比亞"
+
+#: includes/functions/country-functions.php:221
+msgid "Myanmar"
+msgstr "緬甸"
+
+#: includes/functions/country-functions.php:220
+msgid "Mozambique"
+msgstr "莫三比克"
+
+#: includes/functions/country-functions.php:219
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#: includes/functions/country-functions.php:218
+msgid "Montserrat"
+msgstr "蒙特塞拉特"
+
+#: includes/functions/country-functions.php:217
+msgid "Montenegro"
+msgstr "黑山"
+
+#: includes/functions/country-functions.php:216
+msgid "Mongolia"
+msgstr "蒙古"
+
+#: includes/functions/country-functions.php:215
+msgid "Monaco"
+msgstr "摩納哥"
+
+#: includes/functions/country-functions.php:214
+msgid "Moldova"
+msgstr "摩爾多瓦"
+
+#: includes/functions/country-functions.php:213
+msgid "Micronesia"
+msgstr "密克羅尼西亞"
+
+#: includes/functions/country-functions.php:212
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: includes/functions/country-functions.php:211
+msgid "Mayotte"
+msgstr "馬約特島"
+
+#: includes/functions/country-functions.php:210
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+#: includes/functions/country-functions.php:209
+msgid "Mauritania"
+msgstr "毛里塔尼亞"
+
+#: includes/functions/country-functions.php:208
+msgid "Martinique"
+msgstr "馬提尼克島"
+
+#: includes/functions/country-functions.php:207
+msgid "Marshall Islands"
+msgstr "馬紹爾群島"
+
+#: includes/functions/country-functions.php:206
+msgid "Malta"
+msgstr "馬耳他"
+
+#: includes/functions/country-functions.php:205
+msgid "Mali"
+msgstr "馬里"
+
+#: includes/functions/country-functions.php:204
+msgid "Maldives"
+msgstr "馬爾地夫"
+
+#: includes/functions/country-functions.php:203
+msgid "Malaysia"
+msgstr "馬來西亞"
+
+#: includes/functions/country-functions.php:202
+msgid "Malawi"
+msgstr "馬拉維"
+
+#: includes/functions/country-functions.php:201
+msgid "Madagascar"
+msgstr "馬達加斯加"
+
+#: includes/functions/country-functions.php:200
+msgid "Macedonia"
+msgstr "馬其頓"
+
+#: includes/functions/country-functions.php:199
+msgid "Macao S.A.R., China"
+msgstr "澳門"
+
+#: includes/functions/country-functions.php:198
+msgid "Luxembourg"
+msgstr "盧森堡"
+
+#: includes/functions/country-functions.php:197
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: includes/functions/country-functions.php:196
+msgid "Liechtenstein"
+msgstr "列支敦士登"
+
+#: includes/functions/country-functions.php:195
+msgid "Libya"
+msgstr "利比亞"
+
+#: includes/functions/country-functions.php:194
+msgid "Liberia"
+msgstr "利比里亞"
+
+#: includes/functions/country-functions.php:193
+msgid "Lesotho"
+msgstr "萊索托"
+
+#: includes/functions/country-functions.php:192
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#: includes/functions/country-functions.php:191
+msgid "Latvia"
+msgstr "拉脫維亞"
+
+#: includes/functions/country-functions.php:190
+msgid "Laos"
+msgstr "寮國"
+
+#: includes/functions/country-functions.php:189
+msgid "Kyrgyzstan"
+msgstr "吉爾吉斯斯坦"
+
+#: includes/functions/country-functions.php:188
+msgid "Kuwait"
+msgstr "科威特"
+
+#: includes/functions/country-functions.php:187
+msgid "Kiribati"
+msgstr "基里巴斯"
+
+#: includes/functions/country-functions.php:186
+msgid "Kenya"
+msgstr "肯尼亞"
+
+#: includes/functions/country-functions.php:185
+msgid "Kazakhstan"
+msgstr "哈薩克斯坦"
+
+#: includes/functions/country-functions.php:184
+msgid "Jordan"
+msgstr "約旦"
+
+#: includes/functions/country-functions.php:183
+msgid "Jersey"
+msgstr "新澤西州"
+
+#: includes/functions/country-functions.php:182
+msgid "Japan"
+msgstr "日本"
+
+#: includes/functions/country-functions.php:181
+msgid "Jamaica"
+msgstr "牙買加"
+
+#: includes/functions/country-functions.php:180
+msgid "Ivory Coast"
+msgstr "象牙海岸"
+
+#: includes/functions/country-functions.php:179
+msgid "Italy"
+msgstr "義大利"
+
+#: includes/functions/country-functions.php:178
+msgid "Israel"
+msgstr "以色列"
+
+#: includes/functions/country-functions.php:177
+msgid "Isle of Man"
+msgstr "馬恩島"
+
+#: includes/functions/country-functions.php:176
+msgid "Republic of Ireland"
+msgstr "愛爾蘭共和國"
+
+#: includes/functions/country-functions.php:175
+msgid "Iraq"
+msgstr "伊拉克"
+
+#: includes/functions/country-functions.php:174
+msgid "Iran"
+msgstr "伊朗"
+
+#: includes/functions/country-functions.php:173
+msgid "Indonesia"
+msgstr "印尼"
+
+#: includes/functions/country-functions.php:172
+msgid "India"
+msgstr "印度"
+
+#: includes/functions/country-functions.php:171
+msgid "Iceland"
+msgstr "冰島"
+
+#: includes/functions/country-functions.php:170
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: includes/functions/country-functions.php:169
+msgid "Hong Kong"
+msgstr "香港"
+
+#: includes/functions/country-functions.php:168
+msgid "Honduras"
+msgstr "宏都拉斯"
+
+#: includes/functions/country-functions.php:167
+msgid "Heard Island and McDonald Islands"
+msgstr "赫德島和麥克唐納群島"
+
+#: includes/functions/country-functions.php:166
+msgid "Haiti"
+msgstr "海地"
+
+#: includes/functions/country-functions.php:165
+msgid "Guyana"
+msgstr "圭亞那"
+
+#: includes/functions/country-functions.php:164
+msgid "Guinea-Bissau"
+msgstr "幾內亞比紹"
+
+#: includes/functions/country-functions.php:163
+msgid "Guinea"
+msgstr "幾內亞"
+
+#: includes/functions/country-functions.php:162
+msgid "Guernsey"
+msgstr "根西島"
+
+#: includes/functions/country-functions.php:161
+msgid "Guatemala"
+msgstr "瓜地馬拉"
+
+#: includes/functions/country-functions.php:160
+msgid "Guadeloupe"
+msgstr "瓜德羅普島"
+
+#: includes/functions/country-functions.php:159
+msgid "Grenada"
+msgstr "格林納達"
+
+#: includes/functions/country-functions.php:158
+msgid "Greenland"
+msgstr "格陵蘭"
+
+#: includes/functions/country-functions.php:157
+msgid "Greece"
+msgstr "希臘"
+
+#: includes/functions/country-functions.php:156
+msgid "Gibraltar"
+msgstr "直布羅陀"
+
+#: includes/functions/country-functions.php:155
+msgid "Ghana"
+msgstr "加納"
+
+#: includes/functions/country-functions.php:154
+msgid "Germany"
+msgstr "德國"
+
+#: includes/functions/country-functions.php:153
+msgid "Georgia"
+msgstr "喬治亞州"
+
+#: includes/functions/country-functions.php:152
+msgid "Gambia"
+msgstr "岡比亞"
+
+#: includes/functions/country-functions.php:151
+msgid "Gabon"
+msgstr "加蓬"
+
+#: includes/functions/country-functions.php:150
+msgid "French Southern Territories"
+msgstr "法國南部領土"
+
+#: includes/functions/country-functions.php:149
+msgid "French Polynesia"
+msgstr "法屬波利尼西亞"
+
+#: includes/functions/country-functions.php:148
+msgid "French Guiana"
+msgstr "法屬圭亞那"
+
+#: includes/functions/country-functions.php:147
+msgid "France"
+msgstr "法國"
+
+#: includes/functions/country-functions.php:146
+msgid "Finland"
+msgstr "芬蘭"
+
+#: includes/functions/country-functions.php:145
+msgid "Fiji"
+msgstr "斐濟"
+
+#: includes/functions/country-functions.php:144
+msgid "Faroe Islands"
+msgstr "法羅群島"
+
+#: includes/functions/country-functions.php:143
+msgid "Falkland Islands"
+msgstr "福克蘭群島"
+
+#: includes/functions/country-functions.php:142
+msgid "Ethiopia"
+msgstr "埃塞俄比亞"
+
+#: includes/functions/country-functions.php:141
+msgid "Estonia"
+msgstr "愛沙尼亞"
+
+#: includes/functions/country-functions.php:140
+msgid "Eritrea"
+msgstr "厄立特里亞"
+
+#: includes/functions/country-functions.php:139
+msgid "Equatorial Guinea"
+msgstr "赤道幾內亞"
+
+#: includes/functions/country-functions.php:138
+msgid "El Salvador"
+msgstr "薩爾瓦多"
+
+#: includes/functions/country-functions.php:137
+msgid "Egypt"
+msgstr "埃及"
+
+#: includes/functions/country-functions.php:136
+msgid "Ecuador"
+msgstr "厄瓜多爾"
+
+#: includes/functions/country-functions.php:135
+msgid "Dominican Republic"
+msgstr "多明尼加共和國"
+
+#: includes/functions/country-functions.php:134
+msgid "Dominica"
+msgstr "多明尼加"
+
+#: includes/functions/country-functions.php:133
+msgid "Djibouti"
+msgstr "吉布提"
+
+#: includes/functions/country-functions.php:132
+msgid "Denmark"
+msgstr "丹麥"
+
+#: includes/functions/country-functions.php:131
+msgid "Czech Republic"
+msgstr "捷克共和國"
+
+#: includes/functions/country-functions.php:130
+msgid "Cyprus"
+msgstr "塞浦路斯"
+
+#: includes/functions/country-functions.php:129
+msgid "Cura&Ccedil;ao"
+msgstr "卡啦"
+
+#: includes/functions/country-functions.php:128
+msgid "Cuba"
+msgstr "古巴"
+
+#: includes/functions/country-functions.php:127
+msgid "Croatia"
+msgstr "克羅地亞"
+
+#: includes/functions/country-functions.php:126
+msgid "Costa Rica"
+msgstr "哥斯達黎加"
+
+#: includes/functions/country-functions.php:125
+msgid "Cook Islands"
+msgstr "庫克群島"
+
+#: includes/functions/country-functions.php:124
+msgid "Congo (Kinshasa)"
+msgstr "剛果（金沙薩）"
+
+#: includes/functions/country-functions.php:123
+msgid "Congo (Brazzaville)"
+msgstr "剛果（布拉柴維爾）"
+
+#: includes/functions/country-functions.php:122
+msgid "Comoros"
+msgstr "科摩羅"
+
+#: includes/functions/country-functions.php:121
+msgid "Colombia"
+msgstr "哥倫比亞"
+
+#: includes/functions/country-functions.php:120
+msgid "Cocos (Keeling) Islands"
+msgstr "科科斯群島"
+
+#: includes/functions/country-functions.php:119
+msgid "Christmas Island"
+msgstr "聖誕島"
+
+#: includes/functions/country-functions.php:118
+msgid "China"
+msgstr "中國"
+
+#: includes/functions/country-functions.php:117
+msgid "Chile"
+msgstr "智利"
+
+#: includes/functions/country-functions.php:116
+msgid "Chad"
+msgstr "查德"
+
+#: includes/functions/country-functions.php:115
+msgid "Central African Republic"
+msgstr "中非共和國"
+
+#: includes/functions/country-functions.php:114
+msgid "Cayman Islands"
+msgstr "開曼群島"
+
+#: includes/functions/country-functions.php:113
+msgid "Cape Verde"
+msgstr "佛得角"
+
+#: includes/functions/country-functions.php:112
+msgid "Canada"
+msgstr "加拿大"
+
+#: includes/functions/country-functions.php:111
+msgid "Cameroon"
+msgstr "喀麥隆"
+
+#: includes/functions/country-functions.php:110
+msgid "Cambodia"
+msgstr "柬埔寨"
+
+#: includes/functions/country-functions.php:109
+msgid "Burundi"
+msgstr "布隆迪"
+
+#: includes/functions/country-functions.php:108
+msgid "Burkina Faso"
+msgstr "布基納法索"
+
+#: includes/functions/country-functions.php:107
+msgid "Bulgaria"
+msgstr "保加利亞"
+
+#: includes/functions/country-functions.php:106
+msgid "Brunei"
+msgstr "汶萊"
+
+#: includes/functions/country-functions.php:105
+msgid "British Virgin Islands"
+msgstr "英屬維爾京群島"
+
+#: includes/functions/country-functions.php:104
+msgid "British Indian Ocean Territory"
+msgstr "英屬印度洋領地"
+
+#: includes/functions/country-functions.php:103
+msgid "Brazil"
+msgstr "巴西"
+
+#: includes/functions/country-functions.php:102
+msgid "Bouvet Island"
+msgstr "布威島"
+
+#: includes/functions/country-functions.php:101
+msgid "Botswana"
+msgstr "博茨瓦納"
+
+#: includes/functions/country-functions.php:100
+msgid "Bosnia and Herzegovina"
+msgstr "波斯尼亞和黑塞哥維那"
+
+#: includes/functions/country-functions.php:99
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "荷蘭加勒比區"
+
+#: includes/functions/country-functions.php:98
+msgid "Bolivia"
+msgstr "玻利維亞"
+
+#: includes/functions/country-functions.php:97
+msgid "Bhutan"
+msgstr "不丹"
+
+#: includes/functions/country-functions.php:96
+msgid "Bermuda"
+msgstr "百慕大"
+
+#: includes/functions/country-functions.php:95
+msgid "Benin"
+msgstr "貝寧"
+
+#: includes/functions/country-functions.php:94
+msgid "Belize"
+msgstr "伯利茲"
+
+#: includes/functions/country-functions.php:93
+msgid "Belau"
+msgstr "帛琉"
+
+#: includes/functions/country-functions.php:92
+msgid "Belgium"
+msgstr "比利時"
+
+#: includes/functions/country-functions.php:91
+msgid "Belarus"
+msgstr "白俄羅斯"
+
+#: includes/functions/country-functions.php:90
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+#: includes/functions/country-functions.php:89
+msgid "Bangladesh"
+msgstr "孟加拉國"
+
+#: includes/functions/country-functions.php:88
+msgid "Bahrain"
+msgstr "巴林"
+
+#: includes/functions/country-functions.php:87
+msgid "Bahamas"
+msgstr "巴哈馬"
+
+#: includes/functions/country-functions.php:86
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+#: includes/functions/country-functions.php:85
+msgid "Austria"
+msgstr "奧地利"
+
+#: includes/functions/country-functions.php:84
+msgid "Australia"
+msgstr "澳大利亞"
+
+#: includes/functions/country-functions.php:83
+msgid "Aruba"
+msgstr "阿魯巴"
+
+#: includes/functions/country-functions.php:82
+msgid "Armenia"
+msgstr "亞美尼亞"
+
+#: includes/functions/country-functions.php:81
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: includes/functions/country-functions.php:80
+msgid "Antigua and Barbuda"
+msgstr "安提瓜和巴布達"
+
+#: includes/functions/country-functions.php:79
+msgid "Antarctica"
+msgstr "南極洲"
+
+#: includes/functions/country-functions.php:78
+msgid "Anguilla"
+msgstr "安圭拉"
+
+#: includes/functions/country-functions.php:77
+msgid "Angola"
+msgstr "安哥拉"
+
+#: includes/functions/country-functions.php:76
+msgid "Andorra"
+msgstr "安道爾"
+
+#: includes/functions/country-functions.php:75
+msgid "Algeria"
+msgstr "阿爾及利亞"
+
+#: includes/functions/country-functions.php:74
+msgid "Albania"
+msgstr "阿爾巴尼亞"
+
+#: includes/functions/country-functions.php:73
+msgid "&#197;land Islands"
+msgstr "奧蘭群島"
+
+#: includes/functions/country-functions.php:72
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+#: includes/functions/country-functions.php:58
+msgid "South America"
+msgstr "南美"
+
+#: includes/functions/country-functions.php:57
+msgid "North America"
+msgstr "北美洲"
+
+#: includes/functions/country-functions.php:56
+msgid "Eurozone"
+msgstr "歐元區"
+
+#: includes/functions/country-functions.php:55
+msgid "Europe excluding EU"
+msgstr "歐洲(不包括歐盟)"
+
+#: includes/functions/country-functions.php:54
+msgid "Europe"
+msgstr "歐洲"
+
+#: includes/functions/country-functions.php:53
+msgid "European Union"
+msgstr "歐洲聯盟"
+
+#: includes/functions/country-functions.php:52
+msgid "Central America"
+msgstr "中美洲"
+
+#: includes/functions/country-functions.php:51
+msgid "Australia & Oceania"
+msgstr "澳大利亞和大洋洲"
+
+#: includes/functions/country-functions.php:50
+msgid "Asia"
+msgstr "亞洲"
+
+#: includes/functions/country-functions.php:49
+msgid "Africa"
+msgstr "非洲"
+
+#: includes/class-alg-wc-checkout-fees-admin.php:53
+msgid "Wrong user role or nonce not verified."
+msgstr "錯誤的使用者角色或未驗證的 n一個。"
+
+#: includes/class-alg-wc-checkout-fees-admin.php:43
+msgid "Plugin data successfully deleted."
+msgstr "已成功刪除外掛資料。"
+
+#: checkout-fees-for-woocommerce.php:134
+msgid "Unlock All"
+msgstr "解鎖全部"
+
+#: checkout-fees-for-woocommerce.php:131
+msgid "Settings"
+msgstr "設定"

@@ -1,0 +1,406 @@
+2021-08-28T07:30:38+00:00 CRITICAL Uncaught Error: Call to undefined function pms_is_member_of_plan() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/header.php:100
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/wonderland/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/index.php(17): get_header()
+#4 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/header.php on line 100
+
+2021-08-28T09:31:57+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:32:02+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:32:43+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:33:12+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:33:56+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:34:14+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:34:27+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:645) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 645
+
+2021-08-28T09:34:34+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:645) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 645
+
+2021-08-28T09:34:46+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:646) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 646
+
+2021-08-28T09:35:09+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:35:36+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:35:51+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 710
+
+2021-08-28T09:35:51+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 710
+
+2021-08-28T09:35:52+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 710
+
+2021-08-28T09:36:00+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:36:11+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:36:31+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:36:33+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:37:02+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:37:05+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:37:11+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:37:15+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:37:18+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:38:04+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:38:16+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:38:26+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:38:44+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:38:59+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:39:06+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:39:16+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:39:24+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 687
+
+2021-08-28T09:39:44+00:00 CRITICAL Cannot redeclare populate_children() (previously declared in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php:647) in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/functions.php on line 647
+
+2021-08-28T09:40:57+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/footer.php on line 97
+
+2021-08-28T15:21:39+00:00 CRITICAL Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php on line 124
+
+2021-08-28T15:21:41+00:00 CRITICAL Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php on line 124
+
+2021-08-28T15:22:00+00:00 CRITICAL Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php on line 124
+
+2021-08-28T15:22:15+00:00 CRITICAL Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php on line 124
+
+2021-08-28T21:01:35+00:00 CRITICAL Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php:114
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/page-home.php on line 114
+
+2021-08-28T21:26:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_slug() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:90
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 90
+
+2021-08-28T21:30:46+00:00 CRITICAL Uncaught Error: Object of class WP_Post_Type could not be converted to string in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 94
+
+2021-08-28T21:35:33+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 103
+
+2021-08-28T21:36:10+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 103
+
+2021-08-28T21:36:22+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 103
+
+2021-08-28T21:40:16+00:00 CRITICAL Uncaught Error: Call to undefined function typeof() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 95
+
+2021-08-28T21:41:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:115
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 115
+
+2021-08-28T21:41:55+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:115
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 115
+
+2021-08-28T21:46:36+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:49:09+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:49:26+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:49:28+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:49:45+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:49:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:50:02+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T21:58:02+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on bool in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:139
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 139
+
+2021-08-28T21:58:37+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on bool in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:139
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 139
+
+2021-08-28T21:58:47+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on bool in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:135
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 135
+
+2021-08-28T22:09:06+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T22:09:10+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T22:10:28+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:106
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 106
+
+2021-08-28T22:10:39+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:106
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 106
+
+2021-08-28T22:10:49+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:106
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 106
+
+2021-08-28T22:10:50+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:106
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 106
+
+2021-08-28T22:11:15+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:106
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 106
+
+2021-08-28T22:12:28+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:123
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 123
+
+2021-08-28T22:12:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T22:13:01+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:124
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 124
+
+2021-08-28T22:13:12+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:109
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 109
+
+2021-08-28T22:13:14+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php:109
+Stack trace:
+#0 /Applications/MAMP/htdocs/wonderland/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /Applications/MAMP/htdocs/wonderland/wp-includes/template-loader.php(106): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wonderland/wp-blog-header.php(19): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wonderland/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/wonderland/wp-content/themes/wonderland/woocommerce/archive-product.php on line 109
+

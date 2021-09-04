@@ -1,0 +1,90 @@
+# Copyright (C) 2021 FiberAPI
+# This file is distributed under the same license as the FiberConnect Payment Plugin (轉數快, 支付寶, 微信支付) plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: FiberConnect Payment Plugin for WooCommerce (轉數快, 支付寶, 微信支付) 5.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fiberconnect-payment-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-29T10:19:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: fiberconnect-payment-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: includes/class-wc-fiberconnect-request-service.php:35
+msgid "FiberConnect Payment Plugin for WooCommerce (轉數快, 支付寶, 微信支付)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/fiberconnect-payment-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: includes/class-wc-fiberconnect-request-service.php:36
+msgid "Accept QR Code payments on your online store via FiberConnect."
+msgstr ""
+
+#. Author of the plugin
+msgid "FiberAPI"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/"
+msgstr ""
+
+#. translators: 1. URL link.
+#: fiberconnect-payment-woocommerce.php:28
+msgid "FiberConnect Payment Plugin requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: fiberconnect-payment-woocommerce.php:141
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:58
+msgid "Your order has not been completed. Please proceed to payment <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:70
+msgid "Customisation"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:82
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:85
+msgid "We will use a different endpoint if sandbox mode is activated."
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:91
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:93
+msgid "FPS Payment via FiberAPI"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:99
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:108
+msgid "API Credentials"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:115
+msgid "API Key"
+msgstr ""
+
+#: includes/class-wc-fiberconnect-request-service.php:294
+msgid "Awaiting payment"
+msgstr ""
