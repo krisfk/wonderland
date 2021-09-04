@@ -1377,4 +1377,12 @@ button:hover {
         display: inline-block;
         margin: 0 10px 10px 0;
     }
+    .enlarge-foto {
+        width: 90%;
+        height: auto !important;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
