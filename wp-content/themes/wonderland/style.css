@@ -1124,19 +1124,27 @@ button:hover {
 }
 
 @media only screen and (max-width: 1400px) {
+    .logo-a img {
+        height: 80px;
+    }
+    .icon-li.first {
+        margin: 0;
+    }
     .top-menu-ul li a,
     .footer-menu-ul li a {
         display: inline-block;
         text-decoration: none;
         font-size: 0.9rem;
-        padding: 0 6px;
+        padding: 0 0.3rem;
     }
     .top-menu-icon,
     .footer-menu-icon {
-        height: 24px !important;
+        height: 17px !important;
+        position: relative;
+        top: 2px;
     }
     .wts-num {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 }
 
