@@ -249,26 +249,40 @@ for($i=0;$i<8;$i++)
 
 <div class="pagination">
     <?php 
-            $big = 999999999; // need an unlikely integer
+        //     $big = 999999999; // need an unlikely integer
 
     
-        echo paginate_links( array(
-            // 'base'         => '%_%',
+        // echo paginate_links( array(
+        //     // 'base'         => '%_%',
 
-            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-            'total'        => $query->max_num_pages,
-            'current'      => max( 1, get_query_var( 'page' ) ),
-            'format'       => '?page=%#%',
-            'show_all'     => false,
-            'type'         => 'plain',
-            'end_size'     => 2,
-            'mid_size'     => 1,
-            'prev_next'    => true,
-            'prev_text'    => sprintf( '<i></i> %1$s', __( '<', 'text-domain' ) ),
-            'next_text'    => sprintf( '%1$s <i></i>', __( '>', 'text-domain' ) ),
-            'add_args'     => false,
-            'add_fragment' => '',
-        ) );
+        //     'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+        //     'total'        => $query->max_num_pages,
+        //     'current'      => max( 1, get_query_var( 'page' ) ),
+        //     'format'       => '?page=%#%',
+        //     'show_all'     => false,
+        //     'type'         => 'plain',
+        //     'end_size'     => 2,
+        //     'mid_size'     => 1,
+        //     'prev_next'    => true,
+        //     'prev_text'    => sprintf( '<i></i> %1$s', __( '<', 'text-domain' ) ),
+        //     'next_text'    => sprintf( '%1$s <i></i>', __( '>', 'text-domain' ) ),
+        //     'add_args'     => false,
+        //     'add_fragment' => '',
+        // ) );
+
+        echo paginate_links( array(
+            'base' => add_query_arg( 'page', '%#%' ),
+            'format' => '',
+            'prev_text' => __('&laquo;'),
+            'next_text' => __('&raquo;'),
+            'total' =>  $query->max_num_pages,
+            'current' => max( 1, get_query_var( 'page' ) ),
+            // 'add_args' => array(
+            //     'category' => 'fruit',
+            //     'color' => 'red'
+            // )
+          ));
+          
     ?>
 </div>
 
