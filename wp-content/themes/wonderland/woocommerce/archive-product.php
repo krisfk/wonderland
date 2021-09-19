@@ -157,7 +157,7 @@ else
 {
 	$args = array(
         'post_type'      => 'product',
-        'posts_per_page' => 9
+        'posts_per_page' => 12
         // 'product_cat'    => 'category slug here',
     );
     $query = new WP_Query( $args );
