@@ -249,11 +249,11 @@ for($i=0;$i<8;$i++)
 
 <div class="pagination">
     <?php 
+            $big = 999999999; // need an unlikely integer
 
     
         echo paginate_links( array(
             // 'base'         => '%_%',
-            $big = 999999999; // need an unlikely integer
 
             'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
             'total'        => $query->max_num_pages,
