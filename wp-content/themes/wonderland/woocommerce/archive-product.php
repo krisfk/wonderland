@@ -113,13 +113,15 @@ $cateID = $cate->term_id;
 		?></h1>
         <div class="row">
             <?php
-
+$paged = $_GET['page'] ?  $_GET['page']: 1;
 if($_GET['s'])
 {
     $args = array(
 		'post_type'             => 'product',
 		'post_status'           => 'publish',
         's' => $_GET['s'],
+        'paged' => $paged,
+
 		// 'ignore_sticky_posts'   => 1,
 		'posts_per_page'        => 12,
 		'tax_query'             => array(
@@ -137,6 +139,7 @@ else if($cateID){
 	$args = array(
 		'post_type'             => 'product',
 		'post_status'           => 'publish',
+        'paged' => $paged,
 		// 'ignore_sticky_posts'   => 1,
 		'posts_per_page'        => 12,
 		'tax_query'             => array(
