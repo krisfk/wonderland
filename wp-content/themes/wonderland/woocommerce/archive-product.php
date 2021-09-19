@@ -138,7 +138,7 @@ else if($cateID){
 		'post_type'             => 'product',
 		'post_status'           => 'publish',
 		// 'ignore_sticky_posts'   => 1,
-		'posts_per_page'        => 9,
+		'posts_per_page'        => -1,
 		'tax_query'             => array(
 			array(
 				'taxonomy'      => 'product_cat',
