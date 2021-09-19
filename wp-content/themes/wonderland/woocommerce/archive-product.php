@@ -121,7 +121,7 @@ if($_GET['s'])
 		'post_status'           => 'publish',
         's' => $_GET['s'],
 		// 'ignore_sticky_posts'   => 1,
-		'posts_per_page'        => -1,
+		'posts_per_page'        => 12,
 		'tax_query'             => array(
 			array(
 				'taxonomy'      => 'product_cat',
@@ -138,7 +138,7 @@ else if($cateID){
 		'post_type'             => 'product',
 		'post_status'           => 'publish',
 		// 'ignore_sticky_posts'   => 1,
-		'posts_per_page'        => -1,
+		'posts_per_page'        => 12,
 		'tax_query'             => array(
 			array(
 				'taxonomy'      => 'product_cat',
