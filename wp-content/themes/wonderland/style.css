@@ -368,6 +368,7 @@ html {}
     left: 30px;
     color: #fff;
     font-size: 30px;
+    text-shadow: #7b185c 0px 0px 7px, #7b185c 0px 0px 7px, #7b185c 0px 0px 7px;
 }
 
 .home-category-img-a img {
