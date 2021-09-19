@@ -235,7 +235,7 @@ html {}
 .footer-menu-ul li a {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 0 10px;
     transition: 0.2s all;
 }
