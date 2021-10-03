@@ -38,6 +38,8 @@
 
 
         $('.younger-than-18').click(function() {
+
+            window.opener = self;
             window.close();
 
 
