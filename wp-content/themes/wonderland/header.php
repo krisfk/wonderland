@@ -93,10 +93,9 @@
                 src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png" alt="">
 
 
-            <div style="font-size:24px" class="mt-3 mb-3"> 警告:
+            <div style="font-size:30px" class="mt-3"> 警告:
             </div>
-            <div class="">
-                <br>
+            <div class="mt-3">
                 本網頁內容及相關物品可能令人反感<br>
                 不可將其內容及物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士<br>
                 或將其內容及物品向該等人士出示、<br>
