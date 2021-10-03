@@ -101,8 +101,9 @@
     <?php wp_body_open(); ?>
 
     <?php
-    session_start();
-    echo $_SESSION['enter'];?>
+    if(!$_SESSION['enter'])
+    {
+        ?>
     <div class="warn-lightbox">
         <div class="container">
             <!-- <a href="<?php echo get_site_url();?>" class="logo-a col-2"> -->
@@ -129,6 +130,11 @@
 
         </div>
     </div>
+    <?php
+    }
+    
+    ?>
+
 
     <?php
 
