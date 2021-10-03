@@ -103,6 +103,13 @@
                 請即按"離開"。
             </div>
 
+            <div class="mt-3">
+
+                <a href="javascript:void(0);" class="enough-18 warn-btn">18歲以上按此進入</a>
+                <a href="javascript:void(0);" class="younger-than-18 warn-btn">18歲未滿離開</a>
+
+            </div>
+
         </div>
     </div>
 
