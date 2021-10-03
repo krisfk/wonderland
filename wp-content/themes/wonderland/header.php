@@ -101,6 +101,7 @@
     <?php wp_body_open(); ?>
 
     <?php
+    session_start();
     if($_SESSION['enter'] != 'wonderland' )
     {
         ?>
