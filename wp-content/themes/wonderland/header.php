@@ -36,6 +36,12 @@
     <script type="text/javascript">
     $(function() {
 
+
+        $('.younger-than-18').click(function() {
+            window.close();
+
+
+        });
         $(window).resize(function() {
             $('.menu-close-btn').fadeOut(0);
 
