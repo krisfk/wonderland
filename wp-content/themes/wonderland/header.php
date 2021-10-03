@@ -93,7 +93,7 @@
                 alt="">
 
             <div class="mt-5">
-                <span class="large"> 警告:</span>
+                <span style="font-size:24px"> 警告:</span>
                 <br>
                 本網頁內容及相關物品可能令人反感<br>
                 不可將其內容及物品派發、傳閱、出售、出租、交給或出借予年齡未滿18歲的人士<br>
