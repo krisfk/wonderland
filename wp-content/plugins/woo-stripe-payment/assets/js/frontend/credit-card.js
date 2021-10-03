@@ -90,7 +90,7 @@
                     true, {}, {
                         value: {
                             postalCode: this.fields.get('billing_postcode', ''),
-                            hidePostalCode: true,
+                            // hidePostalCode: true,
                         },
                         hidePostalCode: true,
                         //this.fields.required('billing_postcode'),
