@@ -113,7 +113,7 @@
                 src="<?php echo get_template_directory_uri()?>/assets/images/logo-clean.png" alt="">
 
 
-            <div style="font-size:30px" class="mt-3"> 警告:
+            <div style="font-size:30px" class="mt-3"> 警告：
             </div>
             <div class="mt-3">
                 本網頁內容及相關物品可能令人反感<br>
