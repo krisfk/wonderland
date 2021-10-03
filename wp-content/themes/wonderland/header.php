@@ -41,7 +41,7 @@
             $('.warn-lightbox').fadeOut(0);
             $.ajax("<?php echo get_site_url();?>/enter_session.php")
                 .done(function() {
-                    console.log('success');
+                    console.log('successs');
                     // alert("success");
                 })
 
