@@ -1115,6 +1115,15 @@ button:hover {
     max-width: 200px !important;
 }
 
+.warn-lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1000;
+    background: rgb(0 0 0 / 80%);
+}
+
 @media only screen and (max-width: 1920px) {
     .logo-a img {
         height: 100px;

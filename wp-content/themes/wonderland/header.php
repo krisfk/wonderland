@@ -86,7 +86,7 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <div class="lightbox">
+    <div class="warn-lightbox">
         <div class="container">
             警告: <br>
             本網頁內容及相關物品可能令人反感<br>
