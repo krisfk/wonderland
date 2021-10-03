@@ -101,7 +101,7 @@
     <?php wp_body_open(); ?>
 
     <?php
-    if(!$_SESSION['enter'])
+    if($_SESSION['enter'] != 'wonderland' )
     {
         ?>
     <div class="warn-lightbox">
