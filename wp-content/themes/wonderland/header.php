@@ -38,10 +38,7 @@
 
 
         $('.younger-than-18').click(function() {
-            alert(8);
-            window.opener = self;
-            window.close();
-
+            window.location = 'https://www.google.com.hk';
 
         });
         $(window).resize(function() {
