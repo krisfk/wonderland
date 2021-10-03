@@ -39,6 +39,11 @@
 
         $('.enough-18').click(function() {
             $('.warn-lightbox').fadeOut(0);
+            $.ajax("<?php echo get_site_url();?>/enter_session.php")
+                .done(function() {
+                    alert("success");
+                })
+
         })
 
         // $('.younger-than-18').click(function() {
