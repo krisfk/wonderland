@@ -37,10 +37,10 @@
     $(function() {
 
 
-        $('.younger-than-18').click(function() {
-            window.location = 'https://www.google.com.hk';
+        // $('.younger-than-18').click(function() {
+        //     window.location = 'https://www.google.com.hk';
 
-        });
+        // });
         $(window).resize(function() {
             $('.menu-close-btn').fadeOut(0);
 
@@ -111,7 +111,7 @@
             <div class="mt-3">
 
                 <a href="javascript:void(0);" class="enough-18 warn-btn">18歲以上按此進入</a>
-                <a href="javascript:void(0);" class="younger-than-18 warn-btn">18歲未滿離開</a>
+                <a href="http://www.google.com.hk" class="younger-than-18 warn-btn">18歲未滿離開</a>
 
             </div>
 
