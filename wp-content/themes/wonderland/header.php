@@ -100,7 +100,9 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <?php echo $_SESSION['enter'];?>
+    <?php
+    session_start();
+    echo $_SESSION['enter'];?>
     <div class="warn-lightbox">
         <div class="container">
             <!-- <a href="<?php echo get_site_url();?>" class="logo-a col-2"> -->
