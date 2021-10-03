@@ -37,6 +37,10 @@
     $(function() {
 
 
+        $('.enough-18').click(function() {
+            $('.warn-lightbox').fadeOut(0);
+        })
+
         // $('.younger-than-18').click(function() {
         //     window.location = 'https://www.google.com.hk';
 
