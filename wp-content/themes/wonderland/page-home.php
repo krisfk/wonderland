@@ -163,7 +163,9 @@ if( have_rows('banners') )
             
             $args = array(
                 'post_type'      => 'product',
-                'posts_per_page' => 8
+                'posts_per_page' => 8,
+                'orderby'    => 'menu_order',
+
                 // 'product_cat'    => 'category slug here',
             );
             $query = new WP_Query( $args );
